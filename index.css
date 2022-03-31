@@ -39,8 +39,10 @@ h1::first-letter{
 }
 #pic{
   position: relative;
+  height:400px;
+  width: 400px;
   left: 525px;
-  border-radius:15%
+  border-radius:50%
 }
 #pic:hover{
   transform: scale(1.7);
