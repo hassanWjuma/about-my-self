@@ -1,0 +1,70 @@
+body{
+  background-color: wheat;
+}
+h1::first-letter{
+  font-size: 200px;
+  color: teal;
+}
+#waah{
+  text-align: center;
+  text-decoration: underline;
+  color: orange;
+  font-style: italic;
+  text-transform: uppercase;
+  text-shadow: 2.5px 2.5px teal;
+}
+#waah:hover{
+  color: teal;
+  height:100px;
+  width:400px;
+  text-decoration: overline;
+}
+#kuku:hover{
+  color:teal;
+  font-style: italic;
+  box-shadow: 20px  teal;
+  width: 400px;
+}
+#kuku {
+  color: orange;
+  position: relative;
+  font-stretch: semi-expanded;
+
+  width: 350px;
+  height: 100px;
+  left:500px;
+  font-size: 40px;
+  box-shadow: 20px 20px teal;
+  font-style: italic;
+}
+#pic{
+  position: relative;
+  left: 525px;
+  border-radius:15%
+}
+#pic:hover{
+  transform: scale(1.7);
+}
+p{
+  font-size: 35px;
+  font-style: italic;
+  color: teal;
+}
+p:hover{
+  color:orange;
+}
+}
+.papa{
+
+  background-color: teal;
+}
+.maju{
+  text-align: center;
+  font-size: 20px;
+  color: orange;
+  list-style: none;
+justify-content: flex-start;
+}
+.maju:hover{
+  color: teal;
+}
